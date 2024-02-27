@@ -35,8 +35,8 @@ const Header = () => {
             <header id="header" className={isSticky ? 'sticky' : ''}>
                 <div className="container">
                     <div className="navbar">
-                        <h2 className="nav_logo">
-                            <Link to="/">eCom</Link>
+                        <h2 className="nav_logo" style={{ color: "red" }}>
+                            <Link to="/">Adio Store</Link>
                         </h2>
                         <nav className="nav_actions">
                             <div className="search_action">
