@@ -71,9 +71,9 @@ const Footer = () => {
                 <div className="container">
                     <div className="sub_footer_wrapper">
                         <div className="foot_copyright">
-                            <p>
-                                {currYear} | XBeat. All Rights Reserved.
-                                Built by | <a href="https://sonukumar.vercel.app/">Sonu Kumar</a>
+                            <p className='' >
+                                {currYear} | All Rights Reserved.
+                                 by | <a href="https://sonukumar.vercel.app/">Sonu Kumar</a>
                             </p>
                         </div>
                         <div className="foot_social">
